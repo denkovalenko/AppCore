@@ -1,0 +1,13 @@
+E:\Program\FramewrokApp\FrameworkApp.Data\bin\Debug\netcoreapp2.0\FrameworkApp.Data.deps.json
+E:\Program\FramewrokApp\FrameworkApp.Data\bin\Debug\netcoreapp2.0\FrameworkApp.Data.dll
+E:\Program\FramewrokApp\FrameworkApp.Data\bin\Debug\netcoreapp2.0\FrameworkApp.Data.pdb
+E:\Program\FramewrokApp\FrameworkApp.Data\bin\Debug\netcoreapp2.0\FrameworkApp.Entities.dll
+E:\Program\FramewrokApp\FrameworkApp.Data\bin\Debug\netcoreapp2.0\FrameworkApp.RepositoryInterfaces.dll
+E:\Program\FramewrokApp\FrameworkApp.Data\bin\Debug\netcoreapp2.0\FrameworkApp.Entities.pdb
+E:\Program\FramewrokApp\FrameworkApp.Data\bin\Debug\netcoreapp2.0\FrameworkApp.RepositoryInterfaces.pdb
+E:\Program\FramewrokApp\FrameworkApp.Data\obj\Debug\netcoreapp2.0\FrameworkApp.Data.csprojResolveAssemblyReference.cache
+E:\Program\FramewrokApp\FrameworkApp.Data\obj\Debug\netcoreapp2.0\FrameworkApp.Data.csproj.CoreCompileInputs.cache
+E:\Program\FramewrokApp\FrameworkApp.Data\obj\Debug\netcoreapp2.0\FrameworkApp.Data.AssemblyInfoInputs.cache
+E:\Program\FramewrokApp\FrameworkApp.Data\obj\Debug\netcoreapp2.0\FrameworkApp.Data.AssemblyInfo.cs
+E:\Program\FramewrokApp\FrameworkApp.Data\obj\Debug\netcoreapp2.0\FrameworkApp.Data.dll
+E:\Program\FramewrokApp\FrameworkApp.Data\obj\Debug\netcoreapp2.0\FrameworkApp.Data.pdb

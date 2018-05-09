@@ -1,0 +1,9 @@
+E:\Program\FramewrokApp\FrameworkApp.ServiceInterfaces\bin\Debug\netcoreapp2.0\FrameworkApp.ServiceInterfaces.deps.json
+E:\Program\FramewrokApp\FrameworkApp.ServiceInterfaces\bin\Debug\netcoreapp2.0\FrameworkApp.ServiceInterfaces.dll
+E:\Program\FramewrokApp\FrameworkApp.ServiceInterfaces\bin\Debug\netcoreapp2.0\FrameworkApp.ServiceInterfaces.pdb
+E:\Program\FramewrokApp\FrameworkApp.ServiceInterfaces\obj\Debug\netcoreapp2.0\FrameworkApp.ServiceInterfaces.csprojResolveAssemblyReference.cache
+E:\Program\FramewrokApp\FrameworkApp.ServiceInterfaces\obj\Debug\netcoreapp2.0\FrameworkApp.ServiceInterfaces.csproj.CoreCompileInputs.cache
+E:\Program\FramewrokApp\FrameworkApp.ServiceInterfaces\obj\Debug\netcoreapp2.0\FrameworkApp.ServiceInterfaces.AssemblyInfoInputs.cache
+E:\Program\FramewrokApp\FrameworkApp.ServiceInterfaces\obj\Debug\netcoreapp2.0\FrameworkApp.ServiceInterfaces.AssemblyInfo.cs
+E:\Program\FramewrokApp\FrameworkApp.ServiceInterfaces\obj\Debug\netcoreapp2.0\FrameworkApp.ServiceInterfaces.dll
+E:\Program\FramewrokApp\FrameworkApp.ServiceInterfaces\obj\Debug\netcoreapp2.0\FrameworkApp.ServiceInterfaces.pdb

@@ -1,0 +1,4 @@
+E:\Program\FramewrokApp\Framework.DependencyInjection\obj\Debug\netcoreapp2.0\FrameworkApp.DependencyInjection.csprojResolveAssemblyReference.cache
+E:\Program\FramewrokApp\Framework.DependencyInjection\obj\Debug\netcoreapp2.0\FrameworkApp.DependencyInjection.csproj.CoreCompileInputs.cache
+E:\Program\FramewrokApp\Framework.DependencyInjection\obj\Debug\netcoreapp2.0\FrameworkApp.DependencyInjection.AssemblyInfoInputs.cache
+E:\Program\FramewrokApp\Framework.DependencyInjection\obj\Debug\netcoreapp2.0\FrameworkApp.DependencyInjection.AssemblyInfo.cs

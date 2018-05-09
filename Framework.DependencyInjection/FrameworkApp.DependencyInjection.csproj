@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FrameworkApp.BusinessLogic\FrameworkApp.BusinessLogic.csproj" />
+    <ProjectReference Include="..\FrameworkApp.Data\FrameworkApp.Data.csproj" />
+    <ProjectReference Include="..\FrameworkApp.Entities\FrameworkApp.Entities.csproj" />
+    <ProjectReference Include="..\FrameworkApp.RepositoryInterfaces\FrameworkApp.RepositoryInterfaces.csproj" />
+    <ProjectReference Include="..\FrameworkApp.ServiceInterfaces\FrameworkApp.ServiceInterfaces.csproj" />
+  </ItemGroup>
+
+</Project>

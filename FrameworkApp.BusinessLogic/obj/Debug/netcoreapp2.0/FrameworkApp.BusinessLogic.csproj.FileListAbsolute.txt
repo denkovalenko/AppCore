@@ -1,0 +1,15 @@
+E:\Program\FramewrokApp\FrameworkApp.BusinessLogic\bin\Debug\netcoreapp2.0\FrameworkApp.BusinessLogic.deps.json
+E:\Program\FramewrokApp\FrameworkApp.BusinessLogic\bin\Debug\netcoreapp2.0\FrameworkApp.BusinessLogic.dll
+E:\Program\FramewrokApp\FrameworkApp.BusinessLogic\bin\Debug\netcoreapp2.0\FrameworkApp.BusinessLogic.pdb
+E:\Program\FramewrokApp\FrameworkApp.BusinessLogic\bin\Debug\netcoreapp2.0\FrameworkApp.Entities.dll
+E:\Program\FramewrokApp\FrameworkApp.BusinessLogic\bin\Debug\netcoreapp2.0\FrameworkApp.RepositoryInterfaces.dll
+E:\Program\FramewrokApp\FrameworkApp.BusinessLogic\bin\Debug\netcoreapp2.0\FrameworkApp.ServiceInterfaces.dll
+E:\Program\FramewrokApp\FrameworkApp.BusinessLogic\bin\Debug\netcoreapp2.0\FrameworkApp.Entities.pdb
+E:\Program\FramewrokApp\FrameworkApp.BusinessLogic\bin\Debug\netcoreapp2.0\FrameworkApp.RepositoryInterfaces.pdb
+E:\Program\FramewrokApp\FrameworkApp.BusinessLogic\bin\Debug\netcoreapp2.0\FrameworkApp.ServiceInterfaces.pdb
+E:\Program\FramewrokApp\FrameworkApp.BusinessLogic\obj\Debug\netcoreapp2.0\FrameworkApp.BusinessLogic.csprojResolveAssemblyReference.cache
+E:\Program\FramewrokApp\FrameworkApp.BusinessLogic\obj\Debug\netcoreapp2.0\FrameworkApp.BusinessLogic.csproj.CoreCompileInputs.cache
+E:\Program\FramewrokApp\FrameworkApp.BusinessLogic\obj\Debug\netcoreapp2.0\FrameworkApp.BusinessLogic.AssemblyInfoInputs.cache
+E:\Program\FramewrokApp\FrameworkApp.BusinessLogic\obj\Debug\netcoreapp2.0\FrameworkApp.BusinessLogic.AssemblyInfo.cs
+E:\Program\FramewrokApp\FrameworkApp.BusinessLogic\obj\Debug\netcoreapp2.0\FrameworkApp.BusinessLogic.dll
+E:\Program\FramewrokApp\FrameworkApp.BusinessLogic\obj\Debug\netcoreapp2.0\FrameworkApp.BusinessLogic.pdb

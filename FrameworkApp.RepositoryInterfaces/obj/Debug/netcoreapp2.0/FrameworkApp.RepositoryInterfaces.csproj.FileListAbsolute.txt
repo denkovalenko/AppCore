@@ -1,0 +1,11 @@
+E:\Program\FramewrokApp\FrameworkApp.RepositoryInterfaces\bin\Debug\netcoreapp2.0\FrameworkApp.RepositoryInterfaces.deps.json
+E:\Program\FramewrokApp\FrameworkApp.RepositoryInterfaces\bin\Debug\netcoreapp2.0\FrameworkApp.RepositoryInterfaces.dll
+E:\Program\FramewrokApp\FrameworkApp.RepositoryInterfaces\bin\Debug\netcoreapp2.0\FrameworkApp.RepositoryInterfaces.pdb
+E:\Program\FramewrokApp\FrameworkApp.RepositoryInterfaces\bin\Debug\netcoreapp2.0\FrameworkApp.Entities.dll
+E:\Program\FramewrokApp\FrameworkApp.RepositoryInterfaces\bin\Debug\netcoreapp2.0\FrameworkApp.Entities.pdb
+E:\Program\FramewrokApp\FrameworkApp.RepositoryInterfaces\obj\Debug\netcoreapp2.0\FrameworkApp.RepositoryInterfaces.csprojResolveAssemblyReference.cache
+E:\Program\FramewrokApp\FrameworkApp.RepositoryInterfaces\obj\Debug\netcoreapp2.0\FrameworkApp.RepositoryInterfaces.csproj.CoreCompileInputs.cache
+E:\Program\FramewrokApp\FrameworkApp.RepositoryInterfaces\obj\Debug\netcoreapp2.0\FrameworkApp.RepositoryInterfaces.AssemblyInfoInputs.cache
+E:\Program\FramewrokApp\FrameworkApp.RepositoryInterfaces\obj\Debug\netcoreapp2.0\FrameworkApp.RepositoryInterfaces.AssemblyInfo.cs
+E:\Program\FramewrokApp\FrameworkApp.RepositoryInterfaces\obj\Debug\netcoreapp2.0\FrameworkApp.RepositoryInterfaces.dll
+E:\Program\FramewrokApp\FrameworkApp.RepositoryInterfaces\obj\Debug\netcoreapp2.0\FrameworkApp.RepositoryInterfaces.pdb
