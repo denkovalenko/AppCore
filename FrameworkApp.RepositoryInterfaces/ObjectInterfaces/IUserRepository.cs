@@ -8,5 +8,6 @@ namespace FrameworkApp.RepositoryInterfaces.ObjectInterfaces
     public interface IUserRepository
     {
         User GetByUserName(String userName);
+        User GetUser(String userName, String password);
     }
 }

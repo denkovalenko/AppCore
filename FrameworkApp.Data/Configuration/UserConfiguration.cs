@@ -7,7 +7,7 @@ using System.Text;
 
 namespace FrameworkApp.Data.Configuration
 {
-    public class UserConfiguration : IEntityTypeConfiguration<User>
+    internal class UserConfiguration : IEntityTypeConfiguration<User>
     {
         public void Configure(EntityTypeBuilder<User> builder)
         {
@@ -17,6 +17,14 @@ namespace FrameworkApp.Data.Configuration
             builder.HasOne(s => s.UserPersonalInfo)
                 .WithOne(s => s.User)
                 .HasForeignKey<UserPersonalInfo>(s => s.UserPersonalInfoId);
+
+            builder.HasOne(s => s.Role)
+                   .WithMany(s => s.Users)
+                   .HasForeignKey(s => s.RoleId);
+
+            //builder.HasOne(s => s.Role)
+            //       .WithMany(s => s.Users);
+            //       .HasForeignKey<Role>(s => s.);
         }
     }
 }

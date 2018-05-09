@@ -19,7 +19,16 @@ namespace FrameworkApp.Data.Repository
         public User GetByUserName(String userName)
         {
             return Query.Include(s => s.UserPersonalInfo)
+                        .Include(s=> s.Role)
                         .Where(s => s.UserPersonalInfo.Email == userName).FirstOrDefault();
+        }
+
+
+        public User GetUser(String userName, String password)
+        {
+            return Query.Include(s=> s.Role)
+                        .Include(s=> s.UserPersonalInfo)
+                        .Where(s => s.UserPersonalInfo.Email == userName && s.Password == password).FirstOrDefault();
         }
     }
 }

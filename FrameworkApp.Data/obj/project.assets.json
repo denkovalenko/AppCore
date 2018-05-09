@@ -1619,7 +1619,7 @@
       ]
     },
     "Remotion.Linq/2.1.1": {
-      "sha512": "PrjBco579R0haSmQ2nAf4AYTww80TXuhrlGiQOjgEyXXD+RERUGRJwR18TBd1adPgMmQygBXNdhLcJ5Cdt8P1w==",
+      "sha512": "IJn0BqkvwEDpP+2qjvci7n4/a9f7DhKESLWb2/uG4xQh3rTkGTBUz69bI4IivCoKkTFAqjXxYDZw2K/npohjsw==",
       "type": "package",
       "path": "remotion.linq/2.1.1",
       "files": [
@@ -2559,7 +2559,7 @@
       ]
     },
     "System.Reflection.Emit/4.3.0": {
-      "sha512": "ffFlLLXB8L8YOpkTmtIgUx5948gFElVhnKvl9hwOx5u6cBHsTpXyh6RG/J0MXmKNqaeA3i+thh+BmmYf4cgdmg==",
+      "sha512": "228FG0jLcIwTVJyz8CLFKueVqQK36ANazUManGaJHkO0icjiIypKW7YLWLIWahyIkdh5M7mV2dJepllLyA1SKg==",
       "type": "package",
       "path": "system.reflection.emit/4.3.0",
       "files": [
@@ -2593,7 +2593,7 @@
       ]
     },
     "System.Reflection.Emit.ILGeneration/4.3.0": {
-      "sha512": "vuUX59Mbp0CmA7pwTF6LBEuPJXLCEngVFmCNbmrWIDZd9F7/TMAHlQeHjEOOm7vF2zerwZfYD0p5Cc06tMyOjQ==",
+      "sha512": "59tBslAk9733NXLrUJrwNZEzbMAcu8k344OYo+wfSVygcgZ9lgBdGIzH/nrg3LYhXceynyvTc8t5/GD4Ri0/ng==",
       "type": "package",
       "path": "system.reflection.emit.ilgeneration/4.3.0",
       "files": [
@@ -3477,7 +3477,6 @@
   },
   "packageFolders": {
     "C:\\Users\\starv\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -3486,20 +3485,18 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\Program\\FramewrokApp\\FrameworkApp.Data\\FrameworkApp.Data.csproj",
+      "projectUniqueName": "D:\\Other\\AppCore\\FrameworkApp.Data\\FrameworkApp.Data.csproj",
       "projectName": "FrameworkApp.Data",
-      "projectPath": "E:\\Program\\FramewrokApp\\FrameworkApp.Data\\FrameworkApp.Data.csproj",
+      "projectPath": "D:\\Other\\AppCore\\FrameworkApp.Data\\FrameworkApp.Data.csproj",
       "packagesPath": "C:\\Users\\starv\\.nuget\\packages\\",
-      "outputPath": "E:\\Program\\FramewrokApp\\FrameworkApp.Data\\obj\\",
+      "outputPath": "D:\\Other\\AppCore\\FrameworkApp.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\starv\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -3511,11 +3508,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\Program\\FramewrokApp\\FrameworkApp.RepositoryInterfaces\\FrameworkApp.RepositoryInterfaces.csproj": {
-              "projectPath": "E:\\Program\\FramewrokApp\\FrameworkApp.RepositoryInterfaces\\FrameworkApp.RepositoryInterfaces.csproj"
+            "D:\\Other\\AppCore\\FrameworkApp.Entities\\FrameworkApp.Entities.csproj": {
+              "projectPath": "D:\\Other\\AppCore\\FrameworkApp.Entities\\FrameworkApp.Entities.csproj"
             },
-            "E:\\Program\\FramewrokApp\\FrameworkApp.Entities\\FrameworkApp.Entities.csproj": {
-              "projectPath": "E:\\Program\\FramewrokApp\\FrameworkApp.Entities\\FrameworkApp.Entities.csproj"
+            "D:\\Other\\AppCore\\FrameworkApp.RepositoryInterfaces\\FrameworkApp.RepositoryInterfaces.csproj": {
+              "projectPath": "D:\\Other\\AppCore\\FrameworkApp.RepositoryInterfaces\\FrameworkApp.RepositoryInterfaces.csproj"
             }
           }
         }
@@ -3532,12 +3529,12 @@
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0",
             "autoReferenced": true
           },
           "Z.EntityFramework.Extensions.EFCore": {
             "target": "Package",
-            "version": "[2.1.13, )"
+            "version": "2.1.13"
           }
         },
         "imports": [

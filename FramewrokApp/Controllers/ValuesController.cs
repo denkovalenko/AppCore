@@ -4,8 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using FrameworkApp.ServiceInterfaces.Interfaces;
-using FramewrokApp.Models;
 using Microsoft.AspNetCore.Mvc;
+using FrameworkApp.DependencyInjection.ViewModels.User;
+using FrameworkApp.ServiceInterfaces.DTO;
 
 namespace FramewrokApp.Controllers
 {
@@ -14,21 +15,24 @@ namespace FramewrokApp.Controllers
     {
         private IServiceFactory serviceFactory;
         private readonly IMapper _mapper;
-        public ValuesController(IServiceFactory _serviceFactory, IMapper mapper)
+       public ValuesController(IServiceFactory _serviceFactory, IMapper mapper)
         {
             serviceFactory = _serviceFactory;
             _mapper = mapper;
+        }
+
+        [Route("GetUser")]
+        public IActionResult GetUser()
+        {
+            UserDTO userDTO= serviceFactory.UserService.GetUser("qwe@qwe.ww");
+            UserViewModel result = _mapper.Map<UserViewModel>(userDTO);
+            return Ok(result);
         }
 
         // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            var qws = AppDomain.CurrentDomain.GetAssemblies();
-            var qw = AppDomain.CurrentDomain.GetAssemblies().Where(x => x.FullName.Contains("FramewrokApp"));
-
-            var q = serviceFactory.UserService.GetUser();
-            UserViewModel mod = _mapper.Map<UserViewModel>(q);
             return new string[] { "value1", "value2" };
         }
 

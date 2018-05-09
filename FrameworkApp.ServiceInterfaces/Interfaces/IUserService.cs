@@ -7,6 +7,6 @@ namespace FrameworkApp.ServiceInterfaces.Interfaces
 {
     public interface IUserService
     {
-        UserDTO GetUser();
+        UserDTO GetUser(String email);
     }
 }

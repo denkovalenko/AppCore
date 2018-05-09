@@ -11,3 +11,16 @@ E:\Program\FramewrokApp\FrameworkApp.Data\obj\Debug\netcoreapp2.0\FrameworkApp.D
 E:\Program\FramewrokApp\FrameworkApp.Data\obj\Debug\netcoreapp2.0\FrameworkApp.Data.AssemblyInfo.cs
 E:\Program\FramewrokApp\FrameworkApp.Data\obj\Debug\netcoreapp2.0\FrameworkApp.Data.dll
 E:\Program\FramewrokApp\FrameworkApp.Data\obj\Debug\netcoreapp2.0\FrameworkApp.Data.pdb
+D:\Other\AppCore\FrameworkApp.Data\bin\Debug\netcoreapp2.0\FrameworkApp.Data.deps.json
+D:\Other\AppCore\FrameworkApp.Data\bin\Debug\netcoreapp2.0\FrameworkApp.Data.dll
+D:\Other\AppCore\FrameworkApp.Data\bin\Debug\netcoreapp2.0\FrameworkApp.Data.pdb
+D:\Other\AppCore\FrameworkApp.Data\bin\Debug\netcoreapp2.0\FrameworkApp.Entities.dll
+D:\Other\AppCore\FrameworkApp.Data\bin\Debug\netcoreapp2.0\FrameworkApp.RepositoryInterfaces.dll
+D:\Other\AppCore\FrameworkApp.Data\bin\Debug\netcoreapp2.0\FrameworkApp.Entities.pdb
+D:\Other\AppCore\FrameworkApp.Data\bin\Debug\netcoreapp2.0\FrameworkApp.RepositoryInterfaces.pdb
+D:\Other\AppCore\FrameworkApp.Data\obj\Debug\netcoreapp2.0\FrameworkApp.Data.csprojResolveAssemblyReference.cache
+D:\Other\AppCore\FrameworkApp.Data\obj\Debug\netcoreapp2.0\FrameworkApp.Data.csproj.CoreCompileInputs.cache
+D:\Other\AppCore\FrameworkApp.Data\obj\Debug\netcoreapp2.0\FrameworkApp.Data.AssemblyInfoInputs.cache
+D:\Other\AppCore\FrameworkApp.Data\obj\Debug\netcoreapp2.0\FrameworkApp.Data.AssemblyInfo.cs
+D:\Other\AppCore\FrameworkApp.Data\obj\Debug\netcoreapp2.0\FrameworkApp.Data.dll
+D:\Other\AppCore\FrameworkApp.Data\obj\Debug\netcoreapp2.0\FrameworkApp.Data.pdb

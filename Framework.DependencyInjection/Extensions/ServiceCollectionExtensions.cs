@@ -11,30 +11,28 @@ using FrameworkApp.RepositoryInterfaces.ObjectInterfaces;
 using FrameworkApp.RepositoryInterfaces.UoW;
 using FrameworkApp.ServiceInterfaces.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
+using FrameworkApp.Data.Context;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using System.Configuration;
 
 namespace Framework.DependencyInjection.Extensions
 {
     public static class ServiceCollectionExtensions
     {
-        public static IServiceCollection RegisterServices(this IServiceCollection services)
+        //private const String  defaultConnection
+        
+        public static IServiceCollection RegisterServices(this IServiceCollection services, IConfiguration Configuration)
         {
+            services.AddDbContext<AppDbContext>(options => options.UseSqlServer(ConfigurationExtensions.GetConnectionString(Configuration,"DefaultConnection")));
             services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddSingleton<IUserRepository, UserRepository>();
             services.AddTransient<IUserService, UserService>();
+            services.AddTransient<ITokenService, TokenService>();
             services.AddTransient<IServiceFactory, ServiceFactory>();
 
 
-            var config = new AutoMapper.MapperConfiguration(cfg =>
-            {
-                cfg.AddProfile(new FrameworkApp.DependencyInjection.MapperConfiguration.MappingConfig());
-            });
-
-            var mapper = config.CreateMapper();
-
-            //services.AddAutoMapper(null, AppDomain.CurrentDomain.GetAssemblies());
-            //services.AddAutoMapper(null, typeof(FramewrokApp.Mapper.MappingsProfile).Assembly.);
-            //services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies().Where(x => x.FullName.Contains("FramewrokApp.Mapper")));
-            //var qw = AppDomain.CurrentDomain.GetAssemblies().Where(x => x.FullName.Contains("FramewrokApp."));
+            services.AddAutoMapper(null, AppDomain.CurrentDomain.GetAssemblies());
 
             return services;
         }

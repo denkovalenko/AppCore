@@ -7,3 +7,11 @@ E:\Program\FramewrokApp\FrameworkApp.Entities\obj\Debug\netcoreapp2.0\FrameworkA
 E:\Program\FramewrokApp\FrameworkApp.Entities\obj\Debug\netcoreapp2.0\FrameworkApp.Entities.AssemblyInfo.cs
 E:\Program\FramewrokApp\FrameworkApp.Entities\obj\Debug\netcoreapp2.0\FrameworkApp.Entities.dll
 E:\Program\FramewrokApp\FrameworkApp.Entities\obj\Debug\netcoreapp2.0\FrameworkApp.Entities.pdb
+D:\Other\AppCore\FrameworkApp.Entities\bin\Debug\netcoreapp2.0\FrameworkApp.Entities.deps.json
+D:\Other\AppCore\FrameworkApp.Entities\bin\Debug\netcoreapp2.0\FrameworkApp.Entities.dll
+D:\Other\AppCore\FrameworkApp.Entities\bin\Debug\netcoreapp2.0\FrameworkApp.Entities.pdb
+D:\Other\AppCore\FrameworkApp.Entities\obj\Debug\netcoreapp2.0\FrameworkApp.Entities.csproj.CoreCompileInputs.cache
+D:\Other\AppCore\FrameworkApp.Entities\obj\Debug\netcoreapp2.0\FrameworkApp.Entities.AssemblyInfoInputs.cache
+D:\Other\AppCore\FrameworkApp.Entities\obj\Debug\netcoreapp2.0\FrameworkApp.Entities.AssemblyInfo.cs
+D:\Other\AppCore\FrameworkApp.Entities\obj\Debug\netcoreapp2.0\FrameworkApp.Entities.dll
+D:\Other\AppCore\FrameworkApp.Entities\obj\Debug\netcoreapp2.0\FrameworkApp.Entities.pdb

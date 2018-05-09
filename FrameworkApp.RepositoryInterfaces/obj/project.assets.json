@@ -681,7 +681,6 @@
   },
   "packageFolders": {
     "C:\\Users\\starv\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -690,20 +689,18 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\Program\\FramewrokApp\\FrameworkApp.RepositoryInterfaces\\FrameworkApp.RepositoryInterfaces.csproj",
+      "projectUniqueName": "D:\\Other\\AppCore\\FrameworkApp.RepositoryInterfaces\\FrameworkApp.RepositoryInterfaces.csproj",
       "projectName": "FrameworkApp.RepositoryInterfaces",
-      "projectPath": "E:\\Program\\FramewrokApp\\FrameworkApp.RepositoryInterfaces\\FrameworkApp.RepositoryInterfaces.csproj",
+      "projectPath": "D:\\Other\\AppCore\\FrameworkApp.RepositoryInterfaces\\FrameworkApp.RepositoryInterfaces.csproj",
       "packagesPath": "C:\\Users\\starv\\.nuget\\packages\\",
-      "outputPath": "E:\\Program\\FramewrokApp\\FrameworkApp.RepositoryInterfaces\\obj\\",
+      "outputPath": "D:\\Other\\AppCore\\FrameworkApp.RepositoryInterfaces\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\starv\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -715,8 +712,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\Program\\FramewrokApp\\FrameworkApp.Entities\\FrameworkApp.Entities.csproj": {
-              "projectPath": "E:\\Program\\FramewrokApp\\FrameworkApp.Entities\\FrameworkApp.Entities.csproj"
+            "D:\\Other\\AppCore\\FrameworkApp.Entities\\FrameworkApp.Entities.csproj": {
+              "projectPath": "D:\\Other\\AppCore\\FrameworkApp.Entities\\FrameworkApp.Entities.csproj"
             }
           }
         }
@@ -733,7 +730,7 @@
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0",
             "autoReferenced": true
           }
         },

@@ -13,12 +13,14 @@ namespace FrameworkApp.Data.Context
 
         public DbSet<User> User { get; set; }
         public DbSet<UserPersonalInfo> UserPersonalInfo { get; set; }
+        public DbSet<Role> Role { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfiguration(new UserConfiguration());
             modelBuilder.ApplyConfiguration(new UserPersonalInfoConfiguration());
+            modelBuilder.ApplyConfiguration(new RoleConfiguration());
         }
     }
 }

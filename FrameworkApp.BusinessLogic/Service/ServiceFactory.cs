@@ -8,10 +8,12 @@ namespace FrameworkApp.BusinessLogic.Service
     public class ServiceFactory : IServiceFactory
     {
         public IUserService UserService { get; }
+        public ITokenService TokenService { get; }
 
-        public ServiceFactory(IUserService _userService)
+        public ServiceFactory(IUserService _userService, ITokenService _tokenService)
         {
             UserService = _userService;
+            TokenService = _tokenService;
         }
 
 

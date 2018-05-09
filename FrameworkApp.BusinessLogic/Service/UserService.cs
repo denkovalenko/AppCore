@@ -20,12 +20,11 @@ namespace FrameworkApp.BusinessLogic.Service
             _mapper = mapper;
         }
 
-        public UserDTO GetUser()
+        public UserDTO GetUser(String email)
         {
-            User user = uow.UserRepository.GetByUserName("starvladislav@gmail.com");
-            UserDTO dto = _mapper.Map<UserDTO>(user);
-            return dto;
-            //return new UserDTO() { UserId = user.UserId };
+            User user = uow.UserRepository.GetByUserName(email);
+            return _mapper.Map<UserDTO>(user);
         }
+
     }
 }

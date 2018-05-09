@@ -665,7 +665,6 @@
   },
   "packageFolders": {
     "C:\\Users\\starv\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -674,20 +673,18 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\Program\\FramewrokApp\\FrameworkApp.ServiceInterfaces\\FrameworkApp.ServiceInterfaces.csproj",
+      "projectUniqueName": "D:\\Other\\AppCore\\FrameworkApp.ServiceInterfaces\\FrameworkApp.ServiceInterfaces.csproj",
       "projectName": "FrameworkApp.ServiceInterfaces",
-      "projectPath": "E:\\Program\\FramewrokApp\\FrameworkApp.ServiceInterfaces\\FrameworkApp.ServiceInterfaces.csproj",
+      "projectPath": "D:\\Other\\AppCore\\FrameworkApp.ServiceInterfaces\\FrameworkApp.ServiceInterfaces.csproj",
       "packagesPath": "C:\\Users\\starv\\.nuget\\packages\\",
-      "outputPath": "E:\\Program\\FramewrokApp\\FrameworkApp.ServiceInterfaces\\obj\\",
+      "outputPath": "D:\\Other\\AppCore\\FrameworkApp.ServiceInterfaces\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\starv\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -713,7 +710,7 @@
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0",
             "autoReferenced": true
           }
         },
