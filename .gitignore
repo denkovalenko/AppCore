@@ -1,0 +1,10 @@
+*.suo
+/.vs
+/.vscode
+/packages
+
+bin
+obj
+
+/FramewrokApp/node_modules
+/FramewrokApp/package-lock.json
