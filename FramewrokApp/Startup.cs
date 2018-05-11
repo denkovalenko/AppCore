@@ -70,9 +70,14 @@ namespace FramewrokApp
             {
                 app.UseDeveloperExceptionPage();
 
-
+                app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
+                {
+                    HotModuleReplacement = true
+                });
             }
 
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
             //app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
             //{
             //    HotModuleReplacement = true
