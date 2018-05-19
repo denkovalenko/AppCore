@@ -20,8 +20,16 @@
   <ItemGroup>
     <None Remove="ClientApp\app\app.component.ts" />
     <None Remove="ClientApp\app\app.module.ts" />
+    <None Remove="ClientApp\app\app.route.module.ts" />
+    <None Remove="ClientApp\app\common\common.module.ts" />
+    <None Remove="ClientApp\app\common\header\header.component.ts" />
+    <None Remove="ClientApp\app\common\home\home.component.ts" />
+    <None Remove="ClientApp\app\shared\shared.module.ts" />
+    <None Remove="ClientApp\app\common\login\login.component.ts" />
+    <None Remove="ClientApp\app\style.scss" />
     <None Remove="ClientApp\main.ts" />
     <None Remove="ClientApp\polyfills.ts" />
+    <None Remove="ClientApp\style.css" />
   </ItemGroup>
 
   <ItemGroup>
@@ -43,8 +51,18 @@
   <ItemGroup>
     <TypeScriptCompile Include="ClientApp\app\app.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\app.module.ts" />
+    <TypeScriptCompile Include="ClientApp\app\app.route.module.ts" />
+    <TypeScriptCompile Include="ClientApp\app\common\common.module.ts" />
+    <TypeScriptCompile Include="ClientApp\app\common\header\header.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\common\home\home.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\shared\shared.module.ts" />
+    <TypeScriptCompile Include="ClientApp\app\common\login\login.component.ts" />
     <TypeScriptCompile Include="ClientApp\main.ts" />
     <TypeScriptCompile Include="ClientApp\polyfills.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ClientApp\app\common\footer\" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,12 @@
+﻿@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+}
+
+h1{
+    color: red;
+}
+
+.testClass {
+    background-color: bisque;
+}
