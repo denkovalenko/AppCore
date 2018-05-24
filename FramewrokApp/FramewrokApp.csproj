@@ -24,6 +24,8 @@
     <None Remove="ClientApp\app\common\common.module.ts" />
     <None Remove="ClientApp\app\common\header\header.component.ts" />
     <None Remove="ClientApp\app\common\home\home.component.ts" />
+    <None Remove="ClientApp\app\shared\components\authentication-component\authentication.service .ts" />
+    <None Remove="ClientApp\app\shared\models\login.model.ts" />
     <None Remove="ClientApp\app\shared\shared.module.ts" />
     <None Remove="ClientApp\app\common\login\login.component.ts" />
     <None Remove="ClientApp\app\style.scss" />
@@ -55,6 +57,8 @@
     <TypeScriptCompile Include="ClientApp\app\common\common.module.ts" />
     <TypeScriptCompile Include="ClientApp\app\common\header\header.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\common\home\home.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\shared\components\authentication-component\authentication.service .ts" />
+    <TypeScriptCompile Include="ClientApp\app\shared\models\login.model.ts" />
     <TypeScriptCompile Include="ClientApp\app\shared\shared.module.ts" />
     <TypeScriptCompile Include="ClientApp\app\common\login\login.component.ts" />
     <TypeScriptCompile Include="ClientApp\main.ts" />

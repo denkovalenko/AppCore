@@ -9,10 +9,11 @@ import { LoginComponent } from "./common/login/login.component";
 
 const appRoutes: Routes = [
     { path: 'home', component: HomeComponent },
-    { path: '', redirectTo: 'home', pathMatch: 'full'},
-    { path: '**', redirectTo: 'home' },
+    { path: 'login', component: LoginComponent },
+    { path: '', component: HomeComponent },
+    { path: '**', redirectTo: '/' },
 
-    {path: 'login', component: LoginComponent }
+
 ];
 
 @NgModule({

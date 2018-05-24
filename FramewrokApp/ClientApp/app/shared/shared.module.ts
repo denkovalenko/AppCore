@@ -1,7 +1,11 @@
 ﻿import { NgModule } from "@angular/core";
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import {FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { MatButtonModule, MatCheckboxModule, MatInputModule, MatFormFieldModule, MatRippleModule } from '@angular/material';
+import { MatButtonModule, MatCheckboxModule, MatInputModule, MatFormFieldModule, MatRippleModule, MatMenuModule } from '@angular/material';
+import { RouteModeule } from "../app.route.module";
+import { AuthenticationService } from "./components/authentication-component/authentication.service ";
+import { BrowserModule } from "@angular/platform-browser";
+import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
     imports:
@@ -13,6 +17,9 @@ import { MatButtonModule, MatCheckboxModule, MatInputModule, MatFormFieldModule,
         MatFormFieldModule,
         MatInputModule,
         MatRippleModule,
+        MatMenuModule,
+        RouteModeule,
+        HttpClientModule
     ],
     exports:
     [
@@ -23,8 +30,14 @@ import { MatButtonModule, MatCheckboxModule, MatInputModule, MatFormFieldModule,
         MatInputModule,
         MatFormFieldModule,
         MatInputModule,
-        MatRippleModule
+        MatRippleModule,
+        MatMenuModule,
+        RouteModeule,
     ],
+    providers:
+    [
+        { provide: AuthenticationService, useClass: AuthenticationService }
+    ]
 })
 
 export class SharedAppModeule { }

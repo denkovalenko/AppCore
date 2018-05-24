@@ -12,7 +12,7 @@ import { RouteModeule } from "./app.route.module";
         FormsModule,
         SharedAppModeule,
         CommonModeule,
-        RouteModeule
+        //RouteModeule
     ],
     
     declarations:
