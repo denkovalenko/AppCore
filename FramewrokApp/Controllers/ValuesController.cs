@@ -7,6 +7,8 @@ using FrameworkApp.ServiceInterfaces.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using FrameworkApp.DependencyInjection.ViewModels.User;
 using FrameworkApp.ServiceInterfaces.DTO;
+using System.Net.Http.Headers;
+using Microsoft.Net.Http.Headers;
 
 namespace FramewrokApp.Controllers
 {
@@ -24,7 +26,10 @@ namespace FramewrokApp.Controllers
         [Route("GetUser")]
         public IActionResult GetUser()
         {
-            UserDTO userDTO= serviceFactory.UserService.GetUser("qwe@qwe.ww");
+            AuthenticationHeaderValue authenticationHeaderValue = AuthenticationHeaderValue.Parse(Request.Headers[HeaderNames.Authorization]);
+
+            var claim = serviceFactory.TokenService.GetClaims(authenticationHeaderValue.Parameter);
+            UserDTO userDTO = serviceFactory.UserService.GetUser("qwe@qwe.ww");
             UserViewModel result = _mapper.Map<UserViewModel>(userDTO);
             return Ok(result);
         }

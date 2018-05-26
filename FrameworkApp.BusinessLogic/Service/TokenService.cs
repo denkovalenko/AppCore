@@ -61,5 +61,17 @@ namespace FrameworkApp.BusinessLogic.Service
 
             return result;
         }
+
+        public ClaimsPrincipal GetClaims(String token)
+        {
+            JwtSecurityTokenHandler securityTokenHandler = new JwtSecurityTokenHandler();
+            SecurityToken validatedToken;
+            var validateParameters = new TokenValidationParameters();
+            validateParameters.IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(JwtConst.SECURITY_KEY));
+
+            ClaimsPrincipal claimsPrincipal = securityTokenHandler.ValidateToken(token, validateParameters, out validatedToken);
+
+            return claimsPrincipal;
+        }
     }
 }

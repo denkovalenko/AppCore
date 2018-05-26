@@ -11,6 +11,8 @@ using System.Text;
 using System.Security.Claims;
 using FrameworkApp.ServiceInterfaces.Interfaces;
 using FrameworkApp.ServiceInterfaces.DTO.JWT;
+using System.Net.Http.Headers;
+using Microsoft.Net.Http.Headers;
 
 namespace FramewrokApp.Controllers
 {
@@ -28,6 +30,11 @@ namespace FramewrokApp.Controllers
         public IActionResult CreateToken([FromBody] LoginViewModel login)
         {
             JwtResult result = serviceFactory.TokenService.CreatejwtSecurityToken(login.UserName, login.Password);
+            //AuthenticationHeaderValue authenticationHeaderValue = AuthenticationHeaderValue.Parse(Request.Headers[HeaderNames.Authorization]);
+
+            //var claim = serviceFactory.TokenService.GetClaims(authenticationHeaderValue.Parameter);
+
+
             return Ok(result);
         }
 

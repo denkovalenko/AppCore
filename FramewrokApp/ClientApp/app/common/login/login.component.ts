@@ -19,6 +19,8 @@ export class LoginComponent implements OnInit {
     }
 
     logIn() {
+        this.loginModel.userName = "qwe@qwe.ww";
+        this.loginModel.password = "123123";
         this.authenticationService.login(this.loginModel).subscribe((res) => {
             if (res) {
                 this.router.navigate(['/home']);

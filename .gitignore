@@ -8,4 +8,4 @@ obj
 
 /FramewrokApp/node_modules
 /FramewrokApp/package-lock.json
-/FramewrokApp/wwwroot/dist
+/FramewrokApp/wwwroot/dist/*
