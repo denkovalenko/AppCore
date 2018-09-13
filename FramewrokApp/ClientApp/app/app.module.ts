@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { SharedAppModeule } from "./shared/shared.module";
 import { CommonModeule } from "./common/common.module";
 import { RouteModeule } from "./app.route.module";
+import { ReactiveFormsModule } from "@angular/forms";
 @NgModule({
     imports:
     [
@@ -12,6 +13,7 @@ import { RouteModeule } from "./app.route.module";
         FormsModule,
         SharedAppModeule,
         CommonModeule,
+        ReactiveFormsModule
         //RouteModeule
     ],
     
