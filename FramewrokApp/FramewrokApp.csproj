@@ -25,6 +25,8 @@
     <None Remove="ClientApp\app\common\header\header.component.ts" />
     <None Remove="ClientApp\app\common\home\home.component.ts" />
     <None Remove="ClientApp\app\shared\components\authentication-component\authentication.service .ts" />
+    <None Remove="ClientApp\app\shared\components\error-component\my-error-state-matcher.component.ts" />
+    <None Remove="ClientApp\app\shared\guard\auth-guard.ts" />
     <None Remove="ClientApp\app\shared\models\login.model.ts" />
     <None Remove="ClientApp\app\shared\shared.module.ts" />
     <None Remove="ClientApp\app\common\login\login.component.ts" />
@@ -58,6 +60,8 @@
     <TypeScriptCompile Include="ClientApp\app\common\header\header.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\common\home\home.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\shared\components\authentication-component\authentication.service .ts" />
+    <TypeScriptCompile Include="ClientApp\app\shared\components\error-component\my-error-state-matcher.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\shared\guard\auth-guard.ts" />
     <TypeScriptCompile Include="ClientApp\app\shared\models\login.model.ts" />
     <TypeScriptCompile Include="ClientApp\app\shared\shared.module.ts" />
     <TypeScriptCompile Include="ClientApp\app\common\login\login.component.ts" />
