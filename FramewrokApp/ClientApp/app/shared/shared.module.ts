@@ -5,7 +5,9 @@ import { MatButtonModule, MatCheckboxModule, MatInputModule, MatFormFieldModule,
 import { RouteModeule } from "../app.route.module";
 import { AuthenticationService } from "./components/authentication-component/authentication.service ";
 import { BrowserModule } from "@angular/platform-browser";
-import { HttpClientModule } from "@angular/common/http";
+import { HttpClientModule, HTTP_INTERCEPTORS } from "@angular/common/http";
+import { TokenInterceptor } from "./components/authentication-component/token-interceptor.service";
+import { HomeService } from "../common/home/shared/services/home.service";
 
 @NgModule({
     imports:
@@ -19,7 +21,7 @@ import { HttpClientModule } from "@angular/common/http";
         MatRippleModule,
         MatMenuModule,
         RouteModeule,
-        HttpClientModule
+        HttpClientModule,
     ],
     exports:
     [
@@ -36,7 +38,9 @@ import { HttpClientModule } from "@angular/common/http";
     ],
     providers:
     [
-        { provide: AuthenticationService, useClass: AuthenticationService }
+        { provide: AuthenticationService, useClass: AuthenticationService },
+        { provide: HTTP_INTERCEPTORS, useClass: TokenInterceptor, multi: true },
+        { provide: HomeService, useClass: HomeService }
     ]
 })
 

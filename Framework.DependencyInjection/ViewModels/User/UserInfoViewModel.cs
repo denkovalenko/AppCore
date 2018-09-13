@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace FrameworkApp.ServiceInterfaces.DTO
+namespace FrameworkApp.DependencyInjection.ViewModels.User
 {
-    public class UserDTO
+    public class UserInfoViewModel
     {
         public String FirstName { get; set; }
         public String LastName { get; set; }
-        public String Email { get; set; }
+        public String UserName { get; set; }
         public String Role { get; set; }
     }
 }

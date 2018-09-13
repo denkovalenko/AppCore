@@ -17,6 +17,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using FrameworkApp.Common.Constants;
 using Microsoft.AspNetCore.SpaServices.Webpack;
+using Microsoft.AspNetCore.Http;
+using System.IO;
 
 namespace FramewrokApp
 {
@@ -78,12 +80,12 @@ namespace FramewrokApp
 
             app.UseDefaultFiles();
             app.UseStaticFiles();
-            //app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
-            //{
-            //    HotModuleReplacement = true
-            //});
-
             app.UseMvc();
+            app.Run(async (context) =>
+            {
+                context.Response.ContentType = "text/html";
+                await context.Response.SendFileAsync(Path.Combine(env.WebRootPath, "index.html"));
+            });
         }
     }
 }

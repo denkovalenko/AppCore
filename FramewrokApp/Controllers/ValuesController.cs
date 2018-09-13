@@ -17,7 +17,7 @@ namespace FramewrokApp.Controllers
     {
         private IServiceFactory serviceFactory;
         private readonly IMapper _mapper;
-       public ValuesController(IServiceFactory _serviceFactory, IMapper mapper)
+        public ValuesController(IServiceFactory _serviceFactory, IMapper mapper)
         {
             serviceFactory = _serviceFactory;
             _mapper = mapper;
@@ -26,9 +26,6 @@ namespace FramewrokApp.Controllers
         [Route("GetUser")]
         public IActionResult GetUser()
         {
-            AuthenticationHeaderValue authenticationHeaderValue = AuthenticationHeaderValue.Parse(Request.Headers[HeaderNames.Authorization]);
-
-            var claim = serviceFactory.TokenService.GetClaims(authenticationHeaderValue.Parameter);
             UserDTO userDTO = serviceFactory.UserService.GetUser("qwe@qwe.ww");
             UserViewModel result = _mapper.Map<UserViewModel>(userDTO);
             return Ok(result);

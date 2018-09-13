@@ -9,3 +9,5 @@ obj
 /FramewrokApp/node_modules
 /FramewrokApp/package-lock.json
 /FramewrokApp/wwwroot/dist/*
+
+sale_page
