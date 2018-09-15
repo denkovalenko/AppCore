@@ -1,6 +1,7 @@
 ﻿import { Component, OnInit } from '@angular/core';
 import { AuthenticationService } from "../../shared/components/authentication-component/authentication.service ";
 import { UserInfo } from "../../shared/models/user-info.model";
+import { Router } from "@angular/router";
 
 @Component({
     selector: 'header',
@@ -10,7 +11,8 @@ export class HeaderComponent implements OnInit {
 
     public user: UserInfo;
 
-    constructor(private authenticationService: AuthenticationService) { }
+    constructor(private authenticationService: AuthenticationService,
+        private router: Router) { }
 
     ngOnInit() {
         this.chekUser();
@@ -23,5 +25,6 @@ export class HeaderComponent implements OnInit {
 
     public logout() {
         localStorage.clear();
+        this.router.navigate(['/login']);
     }
 }

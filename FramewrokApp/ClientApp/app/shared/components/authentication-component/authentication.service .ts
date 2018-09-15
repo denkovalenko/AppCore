@@ -11,7 +11,6 @@ export class AuthenticationService {
     private tokenResult: any;
     constructor(private http: HttpClient) { }
 
-
     isAuthenticated(login: LoginModel): Observable<boolean> {
         let httpOptions = {
             headers: new HttpHeaders({ 'Content-Type': 'application/json' })
@@ -24,17 +23,17 @@ export class AuthenticationService {
                 localStorage.setItem('tokenInfo', JSON.stringify(this.tokenResult.jwtToken));
                 this.setUserInfo();
                 return true;
+            } else {
+                return false;
             }
-            return false;
         }));
 
     }
 
     setUserInfo() {
-        console.log(this.http.get('api/User/GetUserInfo'));
         return this.http.get('api/User/GetUserInfo').subscribe((result) => {
              if (result) {
-                localStorage.setItem('userInfo', JSON.stringify(result));
+                 localStorage.setItem('userInfo', JSON.stringify(result));
             }
         });
         //return this.http.get('api/User/GetUserInfo').pipe(map(result => {
@@ -42,7 +41,7 @@ export class AuthenticationService {
         //        console.log(result);
         //        localStorage.setItem('userInfo', JSON.stringify(result));
         //    }
-        //}));;
+        //}));
     }
 
     public getUserInfo() {

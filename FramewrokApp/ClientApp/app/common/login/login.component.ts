@@ -13,6 +13,7 @@ import { MyErrorStateMatcher } from "../../shared/components/error-component/my-
 })
 export class LoginComponent implements OnInit {
     loginModel: LoginModel;
+    error: any;
     //emailFormControl: any;
     //matcher: any;
     emailFormControl = new FormControl('', [
@@ -39,6 +40,8 @@ export class LoginComponent implements OnInit {
         this.authenticationService.isAuthenticated(this.loginModel).subscribe((res) => {
             if (res) {
                 this.router.navigate(['/home']);
+            } else {
+                this.error = 'Invalid username or password';
             }
         });
     }
